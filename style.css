@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  background-color: cornflowerblue;
+  margin: 0px;
+  justify-content: center;
+}
+
+.stoplight {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.post {
+  height: 15vh;
+  width: 5vh;
+  background-color: grey;
+}
+
+.lightbox {
+  background-color: grey;
+  padding: 1em;
+}
+
+.red, .yellow, .green{
+  border-radius: 50%;
+  height: 10vh;
+  width: 10vh;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+  margin: 1em 0;
+}
+
+.green {
+  background-color: green;
+}
